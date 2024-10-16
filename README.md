@@ -108,6 +108,15 @@
 
 ### *Enhancement Two: Algorithms and Data Structure*
 
+  In my second artifact I have acquired a project from course CS-260 Data Structures and Algorithms that was created on January 20, 2021. In the course of CS-260 I have created a script that retrieved the “eBid_Monthly_Sales.csv” file in the Visual Studio application. The script allows me to load, display, find, and remove any bids from the eBid_Monthly_Sales.csv file. A calculated elapsed time was set in place to determine how much time it took to retrieve an item from this file.
+ 
+ To enhance this algorithm, I have created an algorithm in a different application to open the database file called, "eBid_Monthly_Sales.csv". I have converted the eBid_Monthly_Sales.csv into a .txt file and convert the file to have a different view in the NOTEPAD++ application. I was also able to open a specific item within the file using a more interactive approach.
+
+ I have selected this artifact to help me display my skills in creating a different algorithm by using the same file that was opened in Visual Studio. By using the same structure, I was able to retrieve the same information in a different application. By using a different application I am able to have a different outcome when specifying items from the "eBid_Monthly_Sales.csv" file.
+
+ By meeting the course outcomes and converting the eBid_Monthly_Sales.csv file to a .txt file I was also able to open the file in a different application which would help organizations open my enhanced file various platforms. I was able to minimized the steps on how the file could be retrieved in NOTEPAD++ application.
+
+
    	// Load a CSV file containing bids into a container
    	// @param csvPath the path to the CSV file to load
    	// @return a container holding all the bids read
