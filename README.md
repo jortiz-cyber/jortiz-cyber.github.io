@@ -156,6 +156,12 @@
 	}
 ### *Enhancement Three: Databases*
 
+ In my third artifact I have be enhanced a file from course CS-405 Secure Coding. This file was created on January 28,2024 and it’s called, “SQL injection queries”. This script runs various statements and flags errors within a suspected SQL injection. This code runs various queries and selects multiple queries with the correct ID, name, and password from a selected name that has been requested.
+
+ I selected this item because it helped me demonstrate specific skills that will align with the third enhancement requirements which is called, “Databases”. I have add more values to my SQL injection database and test multiple queries at the same time. I was able to run multiple queries with various injections 5 additional times and was able to display many values that need to be queried at once within a SQL injection. 
+
+ I was able to meet the outcomes of my enhancement in this artifact by adding more queries that could be tested. Also added more SQL injections to test multiple queries at the same time with minimal errors. Added three more queries to test my sql injection at the same time and all return with a value of “1 record found” response.
+
      // Insert some dummy data
         sql = "INSERT INTO USERS (ID, NAME, PASSWORD)" \
         "VALUES (1, 'Fred', 'Flinstone');" \
