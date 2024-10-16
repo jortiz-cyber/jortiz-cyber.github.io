@@ -146,3 +146,105 @@
     }
 	}
 ### *Enhancement Three: Databases*
+
+     // Insert some dummy data
+        sql = "INSERT INTO USERS (ID, NAME, PASSWORD)" \
+        "VALUES (1, 'Fred', 'Flinstone');" \
+        "INSERT INTO USERS (ID, NAME, PASSWORD)" \
+        "VALUES (2, 'Barney', 'Rubble');" \
+        "INSERT INTO USERS (ID, NAME, PASSWORD)" \
+        "VALUES (3, 'Wilma', 'Flinstone');" \
+        "INSERT INTO USERS (ID, NAME, PASSWORD)" \
+        "VALUES (4, 'Betty', 'Rubble');"\
+        "INSERT INTO USERS (ID, NAME, PASSWORD)" \
+        "VALUES (5, 'BAMBAM', 'Rubble');"\
+        "INSERT INTO USERS (ID, NAME, PASSWORD)" \
+        "VALUES (6, 'DINO', 'Flintstone');"\
+        "INSERT INTO USERS (ID, NAME, PASSWORD)"\
+        "VALUES (7, 'Pebbles', 'Flintstone');"\
+        "INSERT INTO USERS (ID, NAME, PASSWORD)" \
+        "VALUES (8, 'Mr. Slate', 'Stephenson');";
+
+     // Injected SQLs
+        bool run_query_injection(sqlite3* db, const std::string& sql, std::vector< user_record >& records)
+        { 
+        std::string injectedSQL(sql);
+        std::string localCopy(sql);
+
+    // We work on the local copy because of the const
+        std::transform(localCopy.begin(), localCopy.end(), localCopy.begin(), ::tolower);
+        if (localCopy.find_last_of(str_where) >= 0)
+    // This sql has a where clause
+        if (localCopy.back() == ';')
+        { // smart SQL developer terminated with a semicolon - we can fix that!
+            injectedSQL.pop_back();
+        }
+
+        switch (rand() % 4)
+        {
+        case 1:
+            injectedSQL.append(" or 2=2;");
+            break;
+        case 2:
+            injectedSQL.append(" or 'hi'='hi';");
+            break;
+        case 3:
+            injectedSQL.append(" or 'hack'='hack';");
+            break;
+        case 4:
+            injectedSQL.append(" or 'inject'='inject';");
+            break;
+        case 5:
+            injectedSQL.append(" or 'damage'='damage';");
+            break;
+        case 6:
+            injectedSQL.append(" or 'break'='break';");
+            break;
+        case 0:
+        default:
+            injectedSQL.append(" or 1=1;");
+            break;
+        }
+    }
+
+    return run_query(db, injectedSQL, records);
+
+    // Run Queries
+    void run_queries(sqlite3* db)
+    {
+    char* error_message = NULL;
+    std::vector< user_record > records;
+
+    // query all
+    std::string sql = "SELECT * from USERS";
+    if (!run_query(db, sql, records)) return;
+    dump_results(sql, records);
+
+    //  query 1
+    sql = "SELECT ID, NAME, PASSWORD FROM USERS WHERE NAME='Fred'";
+    if (!run_query(db, sql, records)) return;
+    dump_results(sql, records);
+
+    // query 2
+    sql = "SELECT ID, NAME, PASSWORD FROM USERS WHERE NAME='Pebbles'";
+    if (!run_query(db, sql, records)) return;
+    dump_results(sql, records);
+
+    //  query 3
+    sql = "SELECT ID, NAME, PASSWORD FROM USERS WHERE NAME='DINO'";
+    if (!run_query(db, sql, records)) return;
+    dump_results(sql, records);
+
+    //  query 4
+    sql = "SELECT ID, NAME, PASSWORD FROM USERS WHERE NAME='Mr. Slate'";
+    if (!run_query(db, sql, records)) return;
+    dump_results(sql, records);
+
+    //  run query 1 with injection 5 times
+    for (auto i = 0; i < 10; ++i)
+    {
+        if (!run_query_injection(db, sql, records)) continue;
+        dump_results(sql, records);
+    }
+
+    }
