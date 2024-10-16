@@ -20,6 +20,11 @@
  In this course's outcomes I have achieved on choosing the three artifacts which incorporate my three enhancement plans. The three enhancement plans consist of Software Design and Engineering, Algorithms and Data structures, and Databases. For each enhancement plan I have identified what I would like to enhance and modify which will be descirbed below.
 
 ### *Code Review:*
+
+ Below is a video of my code review for this course of my three enhancement file that I have utilized and display my skills.
+
+ https://youtu.be/_POtXL3j95E
+
 ### *Enhancement One: Software Design and Engineering*
 
   The first artifact that I will be enhancing is from course CS-330 of Computational Graphics and Visualization. This design was created in June 19 2023 and consisted of three pyramids on a platform with different textures. I have selected this item because it helps me demonstrate the ability to use innovative techniques, skills, and tools in computing practices that deliver value and accomplished industry specific goals.
