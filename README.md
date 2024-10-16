@@ -12,16 +12,17 @@
 5. Databases: Tree structure
    
 ### *Professional Self-Assessment:*
-### *Code Review*
+
+
+
+### *Code Review:*
 ### *Enhancement One: Software Design and Engineering*
 
   The first artifact that I will be enhancing is from course CS-330 of Computational Graphics and Visualization. This design was created in June 19 2023 and consisted of three pyramids on a platform with different textures. I have selected this item because it helps me demonstrate the ability to use innovative techniques, skills, and tools in computing practices that deliver value and accomplished industry specific goals.
 
   In this artifact I will describe and demonstrate how loops and branches come together to form a visual design that can also be interactive by the user. I will demonstrate how indexes, pointers, and subscripts are tested against arrays. Variables will be defined with meaningful, consistent, and have clear names in each statement. The code in this artifact will be clearly document and easy to read for the next developer that would like to modify this design.
 
-  For this artifact the window width and height were adjusted so that the design can be clearly visualized. The textures of all three pyramids were modified to have a consistent solid color for a better outline of the pyramid. The platform was also modified to display that it may also be changed to match the three pyramids solid textures. I have enhanced this design to meet the course outcomes with building a collaborative environment that enables diverse audiences to support organizational decision making in the field of computer science. I have also designed and developed and delivered professional-quality oral, written, and visual communications that are coherent, technically sound and adapted to specific audiences and contexts.
-
-   When enhancing and modifying this artifact I have learned that I must test and run my code after every modification so that I may correct any errors that appeared with every modification. Saving the source was also an important factor when no errors were present. Adding comments were also important when changes were made so that I may go back and modify the statements to fit my design. The challenges I face were modifying the interactive statements that allowed me to switch from mouse operation to keyboard stroke operations.
+  For this artifact the window width and height were adjusted so that the design can be clearly visualized. The textures of all three pyramids were modified to have a consistent solid color for a better outline of the pyramid. The platform was also modified to display that it may also be changed to match the three pyramids solid textures. I have enhanced this design to meet the course outcomes with building a collaborative environment that enables diverse audiences to support organizational decision making in the field of computer science. I have also designed and developed and delivered professional-quality oral, written, and visual communications that are coherent, technically sound and adapted to specific audiences and contexts.  
 
 // Window width, height
  
