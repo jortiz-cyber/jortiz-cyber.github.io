@@ -13,7 +13,8 @@
    
 ### *Professional Self-Assessment:*
 
-
+	In completeing this course, I have learned that when enhancing and modifying any artifact I must test and run my code after every modification so that I may correct any errors that appeared with every modification. Saving my source was also an important factor when no errors were present in my code. Adding comments were also important when changes were made so that I may go back and modify the statements to fit my design. Using the same language or standards such as utilizing the same Icon sets when building a website or source codes help maximize my marketing potential in the computer science industry. Researching what many others use as a standard but at the same including individuality and creativity helps market my potential as well. 
+ 	
 
 ### *Code Review:*
 ### *Enhancement One: Software Design and Engineering*
