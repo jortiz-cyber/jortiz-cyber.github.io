@@ -107,4 +107,42 @@
  	}
 
 ### *Enhancement Two: Algorithms and Data Structure*
+
+   	// Load a CSV file containing bids into a container
+   	// @param csvPath the path to the CSV file to load
+   	// @return a container holding all the bids read
+   
+    void loadBids(string csvPath, BinarySearchTree* bst) {
+    cout << "Loading CSV file " << csvPath << endl;
+
+   	// initialize the CSV Parser using the given path
+    csv::Parser file = csv::Parser(csvPath);
+
+   	// read and display header row - optional
+    vector<string> header = file.getHeader();
+    for (auto const& c : header) {
+        cout << c << " | ";
+    }
+    cout << "" << endl;
+
+    try {
+   	// loop to read rows of a CSV file
+        for (unsigned int i = 0; i < file.rowCount(); i++) {
+
+   	// Create a data structure and add to the collection of bids
+            Bid bid;
+            bid.bidId = file[i][1];
+            bid.title = file[i][0];
+            bid.fund = file[i][8];
+            bid.amount = strToDouble(file[i][4], '$');
+
+            cout << "Item: " << bid.title << ", Fund: " << bid.fund << ", Amount: " << bid.amount << endl;
+
+            push this bid to the end
+            bst->Insert(bid);
+        }
+    } catch (csv::Error &e) {
+        std::cerr << e.what() << std::endl;
+    }
+	}
 ### *Enhancement Three: Databases*
