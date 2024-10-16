@@ -46,7 +46,8 @@
 	pyr_mesh_Neonblue.texFilename = "textures\\Neonblue.png";
 	ShapeBuilder::UBuildPyramid(pyr_mesh_Neonblue);
 	scene.push_back(pyr_mesh_Neonblue);
-
+ 
+	};
 	//	PYRAMID 02
 	GLMesh pyr_mesh_Neongreen;
 	pyr_mesh_Neongreen.p = {
