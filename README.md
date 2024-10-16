@@ -94,7 +94,7 @@
 	mesh.texFilename = "textures\\Neongray.png";
 	ShapeBuilder::UBuildPlane(mesh);
 	scene.push_back(mesh);
- 	};
+ 	}
 
 ### *Enhancement Two: Algorithms and Data Structure*
 ### *Enhancement Three: Databases*
