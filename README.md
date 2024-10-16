@@ -17,7 +17,7 @@
 
   	Creating an ePortfolio will help me display my skills and knowledge of what I know and can create or modify. When seeking opportunities in different organizations will require some sort of educational background which is also be something I may display in my ePortfolio. But I do understand that by posting projects or work that I may have created in the past for public consumption can limit the authentication of the source. I also understand that I must limit myself on what can be viewed by the public but at the same time attract an employer for employment. I know that accepting internships and volunteer work will give me hands-on training and will be a good experience to add to a resume.
 	
-   	In this course's outcomes I have achieved on choosing the three artifacts which incorporate my three enhancement plans. The three enhancement plans are Software design and engineering, Algorithms and data structures, and Databases. For each enhancement plan I have identified what I would like to enhance and modify. Some artifacts still need some development and refinements because of recent errors when the modification took place.
+   	In this course's outcomes I have achieved on choosing the three artifacts which incorporate my three enhancement plans. The three enhancement plans consist of Software Design and Engineering, Algorithms and Data structures, and Databases. For each enhancement plan I have identified what I would like to enhance and modify which will be descirbed below.
 
 ### *Code Review:*
 ### *Enhancement One: Software Design and Engineering*
