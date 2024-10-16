@@ -4,7 +4,7 @@
 
   My name is Jose Ortiz and this is my Computer Science Capstone ePortfolio that will address my three outcomes in Software Design and Engineering, Algorithms and Data Structure, and Databases. This electronic portfolio is meant to provide my information on my completed enhancements of various courses I attended in earning a Bachelor's degree in Information Security.
 
-## *Table of Content*
+## *Table of Contents*
 1. Professional Self-Assessment
 2. Code Review
 3. Software Design and Engineering: Pyramids
