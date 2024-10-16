@@ -31,7 +31,7 @@
 
  ///BUILDING A SHAPE:
 	
-		//	PYRAMID 01
+	//	PYRAMID 01
 	GLMesh pyr_mesh_Neonblue;
 	pyr_mesh_Neonblue.p = {
 		1.0f, 1.0f, 1.0f, 1.0f,				// color r, g, b a
