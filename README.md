@@ -122,7 +122,7 @@
 
  By meeting the course outcomes and converting the eBid_Monthly_Sales.csv file to a .txt file I was also able to open the file in a different application which would help organizations open my enhanced file various platforms. I was able to minimized the steps on how the file could be retrieved in NOTEPAD++ application.
 
-*Orginal*
+*Original*
 (https://github.com/jortiz-cyber/Tree-Structures.git)
 
 *Enhanced*
@@ -173,6 +173,10 @@
 
  I was able to meet the outcomes of my enhancement in this artifact by adding more queries that could be tested. Also added more SQL injections to test multiple queries at the same time with minimal errors. Added three more queries to test my sql injection at the same time and all return with a value of “1 record found” response.
 
+ *Original*
+ (https://github.com/jortiz-cyber/SQL-Injection-Modified.git)
+
+ *Enhanced*
  (https://github.com/jortiz-cyber/SQL-Injection-Enhanced.git)
 
      // Insert some dummy data
