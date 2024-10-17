@@ -164,6 +164,8 @@
 
  I was able to meet the outcomes of my enhancement in this artifact by adding more queries that could be tested. Also added more SQL injections to test multiple queries at the same time with minimal errors. Added three more queries to test my sql injection at the same time and all return with a value of “1 record found” response.
 
+ (https://github.com/jortiz-cyber/SQL-Injection-Enhanced.git)
+
      // Insert some dummy data
         sql = "INSERT INTO USERS (ID, NAME, PASSWORD)" \
         "VALUES (1, 'Fred', 'Flinstone');" \
