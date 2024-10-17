@@ -33,6 +33,10 @@
 
   For this artifact the window width and height were adjusted so that the design can be clearly visualized. The textures of all three pyramids were modified to have a consistent solid color for a better outline of the pyramid. The platform was also modified to display that it may also be changed to match the three pyramids solid textures. I have enhanced this design to meet the course outcomes with building a collaborative environment that enables diverse audiences to support organizational decision making in the field of computer science. I have also designed and developed and delivered professional-quality oral, written, and visual communications that are coherent, technically sound and adapted to specific audiences and contexts.  
 
+ *Original*
+  (https://github.com/jortiz-cyber/PyramidsFinal)
+  
+  *Enhanced*
   (https://github.com/jortiz-cyber/Pyramids-enhanced)
 
 // Window width, height
