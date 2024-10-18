@@ -19,6 +19,11 @@
 	
  In this course's outcomes I have achieved on choosing the three artifacts which incorporate my three enhancement plans. The three enhancement plans consist of Software Design and Engineering, Algorithms and Data structures, and Databases. For each enhancement plan I have identified what I would like to enhance and modify which will be descirbed below.
 
+**Collaborating in a team environment**
+
+In a team environment collaboration involves sharing ideas, encouragement from teammates, sharing responsibilities, and learning to accept on how teammates work differently. Going through a code review is the process of having someone else review your completed project and having someone look over your work helps spot errors such as misspelled words, missed annotations, and receiving feedback from peers. Having to spot errors before a launch or submission displays the importance of goals being met by a team. All projects I this course would require such collaboration for a successful completed project.
+
+
 ### *Code Review:*
 
  Below is a video of my code review for this course of my three enhancement file that I have utilized and display my skills.
