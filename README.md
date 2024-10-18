@@ -23,6 +23,13 @@
 
 In a team environment collaboration involves sharing ideas, encouragement from teammates, sharing responsibilities, and learning to accept on how teammates work differently. Going through a code review is the process of having someone else review your completed project and having someone look over your work helps spot errors such as misspelled words, missed annotations, and receiving feedback from peers. Having to spot errors before a launch or submission displays the importance of goals being met by a team. All projects I this course would require such collaboration for a successful completed project.
 
+**Communicating with stakeholders**
+
+Designing, developing, and delivering a professional oral, written, and visual communication that is coherent to my audience. Designing and evaluating computing solutions that solve problems using algorithmic principles, standards, and computer science practices. A Demonstration of my ability to use well-founded and innovative techniques, skills, and tools in computing science practices. In the Software Design and Engineering project I identified every algorithm and statement by adding comments so it may be easier for future developers to modify and understand. By detailing these modified statements stakeholders may save time and communicate to future developers what is needed to modify and adjust.
+
+**Data Structures and Algorithms**
+
+I am capable of building Data Structures and Algorithms that make a collection of key-value pairs that allow each key to retrieve information from a database in a short amount of time. Learning and understanding how to create a database by using various applications such as Visual Studio, Codio, Java scripting, C++, and Eclipse are a great way to minimize time when a lot of information must be stored and utilized. Learning and understanding the standards of building a database by adding comments to each statement for the next programmer to understand the process of the program makes it that much easier for the developer. Creating repositories, flowcharts, data structures and algorithms are the most important concepts in the Computer Science programming industry.
 
 ### *Code Review:*
 
