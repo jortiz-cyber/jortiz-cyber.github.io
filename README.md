@@ -31,6 +31,11 @@ Designing, developing, and delivering a professional oral, written, and visual c
 
 I am capable of building Data Structures and Algorithms that make a collection of key-value pairs that allow each key to retrieve information from a database in a short amount of time. Learning and understanding how to create a database by using various applications such as Visual Studio, Codio, Java scripting, C++, and Eclipse are a great way to minimize time when a lot of information must be stored and utilized. Learning and understanding the standards of building a database by adding comments to each statement for the next programmer to understand the process of the program makes it that much easier for the developer. Creating repositories, flowcharts, data structures and algorithms are the most important concepts in the Computer Science programming industry.
 
+**Software Engineering and Database**
+
+In the Computer Science program, I have learned that by understanding software engineering and creating databases are very important in my career field. Software engineers use many software engineering tools and methods to create software that provide database functionality and database applications. Understanding how database management is important is another quality I have obtained in this program. I learned that the Structured Query Language is the most basic understanding of databases for enhancing a database.  Choosing the right database can improve the performance and scalability of applications 
+
+
 ### *Code Review:*
 
  Below is a video of my code review for this course of my three enhancement file that I have utilized and display my skills.
