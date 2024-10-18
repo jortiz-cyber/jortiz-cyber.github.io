@@ -33,8 +33,11 @@ I am capable of building Data Structures and Algorithms that make a collection o
 
 **Software Engineering and Database**
 
-In the Computer Science program, I have learned that by understanding software engineering and creating databases are very important in my career field. Software engineers use many software engineering tools and methods to create software that provide database functionality and database applications. Understanding how database management is important is another quality I have obtained in this program. I learned that the Structured Query Language is the most basic understanding of databases for enhancing a database.  Choosing the right database can improve the performance and scalability of applications 
+In the Computer Science program, I have learned that by understanding software engineering and creating databases are very important in my career field. Software engineers use many software engineering tools and methods to create software that provide database functionality and database applications. Understanding how database management is important is another quality I have obtained in this program. I learned that the Structured Query Language is the most basic understanding of databases for enhancing a database.  Choosing the right database can improve the performance and scalability of applications.
 
+**Security**
+
+Acquiring a security mindset that anticipates attacks and exploits in a software architecture that expose vulnerabilities and design flaws. To include privacy and enhancement in a security structure of data and resources. I was able to develop a security mindset that anticipates adversarial exploits in my software architecture and design when I was able to enhance my database project which was my SQL injection in my third enhancement. This helped me understand how exposing potential vulnerabilities can cause disruptions in an organizations database.
 
 ### *Code Review:*
 
